@@ -23,14 +23,13 @@ Para facilitar a navegação e a avaliação, organizei os projetos seguindo uma
 
 Aqui você encontrará simulações de desafios reais de engenharia de software, cobrindo o ciclo de vida completo de testes.
 
-### 📦 [Projeto 1: Nome do Projeto em Breve]
-* **Cenário:** (Vamos preencher isso no próximo passo)
-* **O que foi aplicado:** Mapeamento de regras de negócio, testes exploratórios, testes funcionais e reporte de anomalias.
-* **Acesse a documentação:** [Link para a pasta do projeto]
+### 📦 [Projeto 1: E-commerce Print-on-Demand - Checkout e Frete]
+* **Cenário:** Validação do fluxo de carrinho e checkout de uma loja virtual PoD. Foco em cupons cumulativos, frete dinâmico por peso e tratamento de exceções (falta de estoque durante o pagamento).
+* **O que foi aplicado:** Criação de Plano de Testes focado em riscos de negócio, Modelagem de Casos de Teste Funcionais e Relatório de Bugs.
+* **Acesse a documentação:** https://github.com/eliezervargasQA/meu-portifolio-QA/tree/main/projeto-ecommerce-pod/documentos
 
-*(Novos projetos baseados em cenários reais serão adicionados aqui...)*
 
-## 🛠️ Mindset e Metodologia
+## 🛠️ Estrategia e Metodologia
 
 Minha atuação em QA é baseada em três pilares:
 
