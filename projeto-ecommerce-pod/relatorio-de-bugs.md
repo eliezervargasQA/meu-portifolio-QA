@@ -31,5 +31,5 @@ O sistema aceita a inserção do segundo cupom sem invalidar o primeiro. Os desc
 ---
 
 ### 📎 Evidências
-* **Screenshot:** `[Link ou imagem simulada do carrinho com os dois cupons aplicados ao mesmo tempo]`
-* **Console Log:** `[Erro de validação ausente na requisição POST /api/v1/checkout/apply-coupon]`
+* **Log da Tela e Dados:** [Acessar evidencia-bug-001.md](../evidencias/evidencia-bug-001.md)
+* **Console Log:** Falha na validação de exclusividade na requisição `POST /api/v1/checkout/apply-coupon`.
