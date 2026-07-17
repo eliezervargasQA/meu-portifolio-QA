@@ -8,7 +8,7 @@ Este repositório foi construído para demonstrar minha abordagem técnica e ana
 
 Para facilitar a navegação e a avaliação, organizei os projetos seguindo uma estrutura modular e clara:
 
-> /meu-portfolio-qa
+> /meu-portfolio-QA
 > ├── README.md (apresentação e explicação)
 > ├── /documentos
 > │   ├── plano-de-testes.md
