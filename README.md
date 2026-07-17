@@ -28,6 +28,10 @@ Aqui você encontrará simulações de desafios reais de engenharia de software,
 * **O que foi aplicado:** Criação de Plano de Testes focado em riscos de negócio, Modelagem de Casos de Teste Funcionais e Relatório de Bugs.
 * **Acesse a documentação:** https://github.com/eliezervargasQA/meu-portifolio-QA/tree/main/projeto-ecommerce-pod/documentos
 
+### 🛵 [Projeto 2: App de Logística - Roteirização e Entregas]
+* **Cenário:** Testes focados no ciclo de vida de um pedido de entrega. Validação de transições de status, cálculo de rotas via GPS e testes de resiliência (perda de conexão de dados no momento da conclusão da corrida).
+* **O que foi aplicado:** Testes Mobile, Simulação de Geofencing, Cenários de Exceção (Modo Offline) e Análise de Risco Operacional.
+* **Acesse a documentação:** https://github.com/eliezervargasQA/meu-portifolio-QA/tree/main/projeto-app-logistica/documentos
 
 ## 🛠️ Estrategia e Metodologia
 
