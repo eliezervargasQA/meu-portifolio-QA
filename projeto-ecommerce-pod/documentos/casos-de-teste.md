@@ -18,7 +18,7 @@
 
 ---
 
-## 💥 CT-02: Concorrência de Estoque (Falta de matéria-prima durante o pagamento)
+##  CT-02: Concorrência de Estoque (Falta de matéria-prima durante o pagamento)
 **Objetivo:** Evitar a venda de produtos sem estoque de estamparia (Overbooking). Validação do momento crítico entre o carrinho e a aprovação do cartão.
 
 > **Dado** que o cliente está na tela de "Revisão do Pedido" com 1 "Moletom Preto Tam. M" no carrinho
@@ -31,7 +31,7 @@
 
 ---
 
-## 🎟️ CT-03: Bloqueio de Cupons de Desconto Cumulativos
+##  CT-03: Bloqueio de Cupons de Desconto Cumulativos
 **Objetivo:** Prevenir falhas lógicas que permitam ao usuário zerar o valor total da compra combinando cupons indevidamente.
 
 > **Dado** que o cliente tem R$ 100,00 em produtos no carrinho
@@ -41,3 +41,17 @@
 > **Então** o sistema deve remover o desconto anterior ("BOASVINDAS10")
 > **E** aplicar apenas o novo cupom ("FRETEGRATIS")
 > **E** exibir a mensagem "Apenas um cupom promocional pode ser utilizado por compra".
+---
+
+##  CT-04: [Caminho Triste] Fallback de Frete por Indisponibilidade da API da Transportadora
+**Objetivo:** Validar o comportamento e a resiliência do sistema quando a API externa de cálculo de frete (ex: Correios/Logística) retorna erro ou Timeout, garantindo que o cliente não fique travado na tela de checkout.
+**Tipo de Teste:** Tratamento de Exceção / Integração
+
+> **Dado** que o cliente possui 2 "Camisetas Básicas" no carrinho
+> **E** avança para a etapa de "Entrega" inserindo um CEP válido
+> **Quando** o sistema tenta consultar a API da transportadora
+> **E** a API externa demora mais de 5000ms para responder (Timeout) ou retorna "Status 503 - Service Unavailable"
+> **Então** o sistema não deve exibir uma tela de erro genérica ou quebrar o layout
+> **E** deve ativar o plano de contingência (Fallback)
+> **E** exibir a opção: "Frete Fixo Padrão - R$ 25,00 (Prazo estendido de até 15 dias úteis)"
+> **E** permitir que o cliente conclua o pagamento normalmente com essa taxa.
