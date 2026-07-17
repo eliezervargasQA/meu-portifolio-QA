@@ -1,0 +1,12 @@
+{
+  "name": "automacao-ecommerce-pod",
+  "version": "1.0.0",
+  "description": "Scripts de automação para validação do checkout do E-commerce PoD",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run"
+  },
+  "devDependencies": {
+    "cypress": "^13.0.0"
+  }
+}
