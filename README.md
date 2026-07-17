@@ -14,8 +14,8 @@ Para facilitar a navegação e a avaliação, organizei os projetos seguindo uma
 > │   ├── plano-de-testes.md
 > │   ├── casos-de-teste.md
 > │   └── relatorio-de-bugs.md
-> ├── /automacao (opcional)
-> │   ├── /cypress ou /playwright
+> ├── /automacao 
+> │   ├── /cypress e /playwright
 > │   └── package.json
 > └── /evidencias (screenshots, vídeos)
 
