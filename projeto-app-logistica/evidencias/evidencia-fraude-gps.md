@@ -1,4 +1,4 @@
-# 📎 Evidência: Bloqueio de Geofencing e Prevenção de Fraudes (CT-01)
+#  Evidência: Bloqueio de Geofencing e Prevenção de Fraudes (CT-01)
 
 **Data da captura:** 17/07/2026
 **Ambiente:** Homologação (Mobile Android) / API de Mapas
